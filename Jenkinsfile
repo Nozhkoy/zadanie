@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        echo 'jenkins min'
+        git(branch: 'main', url: 'https://github.com/Nozhkoy/zadanie')
       }
     }
 
