@@ -1,4 +1,4 @@
-FROM python:latest
+FROM python:alpine
 WORKDIR /python-docker
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
